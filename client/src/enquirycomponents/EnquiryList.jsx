@@ -70,7 +70,6 @@ export default function EnquiryList({data=[],getAllenquiry,Swal,setFormData}) {
                 <button onClick={()=>editRow(item._id)} className="font-medium text-blue-600 hover:underline">Edit</button>
             </TableCell>
              </TableRow>
-            
           ))
           :
           <TableRow className="bg-white dark:border-gray-700 dark:bg-gray-800">

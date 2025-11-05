@@ -5,7 +5,7 @@ import EnquiryList from "./enquirycomponents/EnquiryList";
 import { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import { useEffect } from "react";
-import Swal from 'sweetalert2/dist/sweetalert2.js' 
+import Swal from 'sweetalert2/dist/sweetalert2.js'
 
 export default function Enquiry() {
 const baseURL = import.meta.env.VITE_API_URL;
@@ -84,7 +84,7 @@ useEffect(()=>{
       <ToastContainer />
       <h1 className="text-[40px] text-center py-6 font-bold">User Enquiry</h1>
 
-      <div className="grid grid-cols-[30%_70%] gap-10 sm:grid-cols-2">
+      <div className="grid grid-cols-[40%_60%] gap-10">
         <div className="bg-gray-200 p-6 rounded-lg shadow-md">
           <h2 className="text-[20px] font-bold mb-4">Enquiry Form</h2>
           <form onSubmit={saveEnquiry} className="space-y-4">
