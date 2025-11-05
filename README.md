@@ -26,6 +26,7 @@ A simple MERN stack project to manage user enquiries with full **CRUD functional
 
 ## Setup Instructions
 
+```bash
 1. **Clone the repo**
 git clone <your-repo-url>
 cd <repo-folder>
