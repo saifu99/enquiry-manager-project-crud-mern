@@ -34,11 +34,11 @@ cd <repo-folder>
 2. **Backend Setup**
 cd server
 npm install
-cp .env.example .env   # add your MongoDB URI and PORT
+cp .env.example .env   #add your MongoDB URI and PORT
 node index.js 
 
 3. **Frontend Setup**
 cd ../client
 npm install
-cp .env.example .env   # set VITE_API_URL to backend URL
+cp .env.example .env   #set VITE_API_URL to backend URL
 npm run dev
